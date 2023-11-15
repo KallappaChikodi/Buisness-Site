@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    font-family: "Urbanist", sans-serif;
+}
+
+:root{
+    --bs-dark-color:#1a1d20;
+    --bs--dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#29a9fd;
+    --bs-supporting-color:#c850c0;
+}
+
+
+h1,h2,h3,h4,h5{
+    font-family: 'lexend deca',sans-serif;
+    color:var(--bs-dark-color);
+}
+h1{
+    font-size:4rem ;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size:3.4rem ;
+
+}
+
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing:0.01rem !important ;
+
+}
+.common-title{
+    margin-bottom: 4.2rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+
+
+}
+a{
+    text-decoration: none;
+
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+.hero-video-section{
+    width:70%;
+    height: 60vh;
+
+}
+
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+
+}
+.bg-color{
+    background-color: var(--bs--dark-primary);
+}
+.nav-link{
+    color:var(--bs-main-color) !important;
+}
+
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}
+
+
+
+
+.custom-shape-divider-bottom-1698037246 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1698037246 svg {
+    position: relative;
+    display: block;
+    width: calc(108% + 1.3px);
+    height: 118px;
+}
+
+.custom-shape-divider-bottom-1698037246 .shape-fill {
+    fill: #FFFFFF;
+}
+.service-section{
+    padding:6rem 0 3rem 0 !important; 
+}
